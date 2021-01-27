@@ -154,3 +154,15 @@ Vector operator*(double escalar, const Vector &v)
 {
     return v * escalar;
 }
+
+//----------------------------------------------------------------------------
+// Funciones externas
+
+void operator<<(std::ostream &fsalida, const Vector &v)
+{
+    fsalida << "(";
+    for(int i = 0 ; i < v.ObtenerDimension() ; ++i) fsalida << v.ObtenerComponente(i) << ", ";
+    fsalida << "\b\b)";
+}
+
+//----------------------------------------------------------------------------
