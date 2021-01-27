@@ -8,6 +8,14 @@ using namespace std;
 int main()
 {
     try{
+       
+       Vector a(3, 9);
+       //a.Imprimir();
+       cout << a;
+
+       a = Vector(5);
+       a.Imprimir();
+        
        Vector v(3), w(3), z(3);
 
        //cout << v.ObtenerDimension() << endl;
