@@ -12,7 +12,7 @@ class Vector{
     friend Vector operator*(double escalar, const Vector &v);
 public:
     Vector();           // constructor por default
-    Vector(int dim);    // constructor u operador de conversion
+    explicit Vector(int dim);    // constructor u operador de conversion
     Vector(int dim, double valorInicial);
     Vector(const Vector &v); // constructor de copias
 
@@ -110,6 +110,6 @@ private:
 
 };
 
-// Operacion escalar por vector
+void operator<<(std::ostream &fsalida, const Vector &v);
 
 #endif // VECTOR_H_INCLUDED
