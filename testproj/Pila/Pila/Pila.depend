@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1612990885 source:c:\users\j. e. escobedo\documents\unison\2021-1\estructuras de datos\testproj\pila\pila\main.cpp
+	<iostream>
+	<ctime>
+	"Pila.h"
+
+1612990598 c:\users\j. e. escobedo\documents\unison\2021-1\estructuras de datos\testproj\pila\pila\pila.h
+	<iostream>
+	<exception>
+	"Pila.tpp"
+
+1612990918 c:\users\j. e. escobedo\documents\unison\2021-1\estructuras de datos\testproj\pila\pila\pila.tpp
+

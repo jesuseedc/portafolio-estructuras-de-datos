@@ -1,0 +1,20 @@
+#include "Pila.h"
+
+#define SIN_ELEM -1
+
+//------------------------------------------------------------------------
+template <typename T>
+Pila<T>::Pila(): tope(SIN_ELEM) {}
+
+//------------------------------------------------------------------------
+void Pila::Apilar(double valor)
+{
+    if(EstaLlena()) throw PilaLlena;
+    contenido[++tope] = valor;
+}
+
+//------------------------------------------------------------------------
+void Pila::Desapilar()
+{
+    return 0;
+}
