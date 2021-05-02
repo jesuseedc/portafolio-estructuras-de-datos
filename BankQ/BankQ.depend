@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1614980920 source:/home/jesuseedc/Documents/UNISON/2021-1/Estructuras de Datos/hw/BankQ/Customer.cpp
+	"Customer.h"
+
+1614980904 /home/jesuseedc/Documents/UNISON/2021-1/Estructuras de Datos/hw/BankQ/Customer.h
+	<iostream>
+	<cstdlib>
+	<string>
+
+1614980867 source:/home/jesuseedc/Documents/UNISON/2021-1/Estructuras de Datos/hw/BankQ/main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<string>
+	<unistd.h>
+	"Queue.h"
+	"Customer.h"
+	<unistd.h>
+
+1614974823 /home/jesuseedc/Documents/UNISON/2021-1/Estructuras de Datos/hw/BankQ/Queue.h
+	<iostream>
+	"Queue.tpp"
+
+1614972927 /home/jesuseedc/Documents/UNISON/2021-1/Estructuras de Datos/hw/BankQ/Queue.tpp
+
+1614980920 source:/home/jesuseedc/Downloads/BankQ/Customer.cpp
+	"Customer.h"
+
+1614980904 /home/jesuseedc/Downloads/BankQ/Customer.h
+	<iostream>
+	<cstdlib>
+	<string>
+
+1614981779 source:/home/jesuseedc/Downloads/BankQ/main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<string>
+	<unistd.h>
+	"Queue.h"
+	"Customer.h"
+	<unistd.h>
+
+1614974823 /home/jesuseedc/Downloads/BankQ/Queue.h
+	<iostream>
+	"Queue.tpp"
+
+1614972927 /home/jesuseedc/Downloads/BankQ/Queue.tpp
+
